@@ -6,6 +6,7 @@ import { View, StyleSheet, ActivityIndicator,Text } from 'react-native'
 import WeatherSearch from './src/components/weatherSearch'
 import WeatherInfo from './src/components/weatherInfo'
 
+
 const App = () => {
   const [weatherData, setWeatherData] = useState()
   const [status, setStatus] = useState('')

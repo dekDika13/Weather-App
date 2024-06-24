@@ -1,2 +1,6 @@
-export const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
-export const API_KEY = '855e4d2bc1843a1cd21484164e132481';
+// constants.js
+import { API_KEY as ENV_API_KEY, BASE_URL as ENV_BASE_URL } from "@env";
+
+export const BASE_URL = ENV_BASE_URL;
+
+export const API_KEY = ENV_API_KEY;
